@@ -1,0 +1,32 @@
+.container{
+    background-color: rgb(34, 34, 34);
+    padding: 30px;
+    color: white;
+}
+
+.container img{
+    width: 190px;
+}
+
+.wrapper_grid{
+    /* width: 90%; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px
+}
+
+.wrapper_grid h3{
+    margin-bottom: 20px;
+}
+
+.wrapper_grid p{
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px){
+    .wrapper_grid{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,13 @@
+.container{
+    background-color: rgb(217, 240, 237);
+}
+
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.wrapper h2{
+    text-align: center;
+    padding: 30px;
+}

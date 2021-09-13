@@ -1,0 +1,44 @@
+.topbar_wrapper{
+    background-color: rgb(228, 241, 228);
+}
+
+.topbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 0;
+   color: green;
+   
+}
+
+.rightMenu{
+    display: flex;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+
+.contactItem{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px){
+    .topbar{
+        flex-direction: column;
+    }
+
+    .rightMenu{
+        flex-direction: column;
+    }
+
+    .contact{
+        flex-direction: column;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+}

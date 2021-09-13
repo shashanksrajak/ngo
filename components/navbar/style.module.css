@@ -1,0 +1,19 @@
+.navbar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+}
+
+.nav_wrapper {
+  border-bottom: 2px solid red;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 190px;
+}

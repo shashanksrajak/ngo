@@ -1,0 +1,29 @@
+.navmenu ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.navmenu ul li {
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.navmenu ul li:hover {
+  background-color: green;
+  color: white;
+}
+
+.active {
+  background-color: rgb(214, 238, 214);
+  color: green;
+}
+
+@media (max-width: 768px){
+  .navmenu{
+    display: none;
+  }
+}

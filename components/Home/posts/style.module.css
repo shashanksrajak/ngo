@@ -1,0 +1,40 @@
+.posts_bg {
+  background-color: rgb(235, 243, 235);
+  padding: 50px 0;
+}
+
+.posts {
+  margin: 30px auto;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  color: green;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+}
+
+.card h3 {
+  margin-bottom: 20px;
+}
+
+.post_grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+
+
+@media (max-width: 768px){
+    .post_grid{
+        grid-template-columns: 1fr;
+    }
+}

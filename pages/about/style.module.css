@@ -1,0 +1,11 @@
+.textBox{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.title{
+    text-align: center;
+    color: green;
+    text-transform: uppercase;
+    
+}
